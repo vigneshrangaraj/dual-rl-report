@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  12 MAY 2025 22:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  12 MAY 2025 22:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -402,8 +402,12 @@ See the caption package documentation for explanation.
 
 
 [4 <./reward_plot.png>]
-/Users/vigneshrangaraj/Desktop/Research/Grid/Dual-RL/ieee_paper_latex/report/dual_rl_05122025/dual_rl_05122025.tex:137: Misplaced alignment tab character &.
-l.137 ... Bidram, A., Davoudi, A., Lewis, F. L., &
+Underfull \hbox (badness 5147) in paragraph at lines 132--134
+\OT1/cmr/m/n/10.95 : The code for this project is avail-able at []$\OT1/cmtt/m/n/10.95 https : / / github . com / vigneshrangaraj /
+ []
+
+/Users/vigneshrangaraj/Desktop/Research/Grid/Dual-RL/ieee_paper_latex/report/dual_rl_05122025/dual_rl_05122025.tex:140: Misplaced alignment tab character &.
+l.140 ... Bidram, A., Davoudi, A., Lewis, F. L., &
                                                    Qu, Z. (2013). Secondary ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -412,8 +416,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-/Users/vigneshrangaraj/Desktop/Research/Grid/Dual-RL/ieee_paper_latex/report/dual_rl_05122025/dual_rl_05122025.tex:137: Misplaced alignment tab character &.
-l.137 ...t systems. IET Generation, Transmission &
+/Users/vigneshrangaraj/Desktop/Research/Grid/Dual-RL/ieee_paper_latex/report/dual_rl_05122025/dual_rl_05122025.tex:140: Misplaced alignment tab character &.
+l.140 ...t systems. IET Generation, Transmission &
                                                    Distribution, 7(8), 822-831.
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -424,7 +428,9 @@ might try typing `S' now just to see what is salvageable.
 
 
 
-[5 <./der_config.png>] (./dual_rl_05122025.aux)
+[5 <./der_config.png>]
+
+[6] (./dual_rl_05122025.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -443,21 +449,21 @@ Package rerunfilecheck Warning: File `dual_rl_05122025.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `dual_rl_05122025.out':
 (rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  9E0AAC5196B4903E125DAD4B447DF4AC;1732.
+(rerunfilecheck)             After:  5132EAB12535319B10FBD6699CAD1B6B;1864.
  ) 
 Here is how much of TeX's memory you used:
- 11603 strings out of 473190
- 182425 string characters out of 5715801
+ 11605 strings out of 473190
+ 182440 string characters out of 5715801
  587285 words of memory out of 5000000
  34716 multiletter control sequences out of 15000+600000
  567712 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,685b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on dual_rl_05122025.pdf (5 pages, 365423 bytes).
+Output written on dual_rl_05122025.pdf (6 pages, 369721 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 25 named destinations out of 1000 (max. 500000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
+ 27 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
