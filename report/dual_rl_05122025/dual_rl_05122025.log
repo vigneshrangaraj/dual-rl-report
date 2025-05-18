@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  12 MAY 2025 22:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2025.3.8)  17 MAY 2025 21:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -368,11 +368,11 @@ LaTeX Warning: No \author given.
 
 LaTeX Warning: Reference `fig:der_config' on page 3 undefined on input line 107.
 
-<./reward_plot.png, id=37, 995.72pt x 788.9475pt>
-File: ./reward_plot.png Graphic file (type png)
-<use ./reward_plot.png>
-Package pdftex.def Info: ./reward_plot.png  used on input line 109.
-(pdftex.def)             Requested size: 422.77664pt x 334.99127pt.
+<./rewards_plot.png, id=37, 959.2638pt x 921.4425pt>
+File: ./rewards_plot.png Graphic file (type png)
+<use ./rewards_plot.png>
+Package pdftex.def Info: ./rewards_plot.png  used on input line 109.
+(pdftex.def)             Requested size: 422.77664pt x 406.11084pt.
 
 Package caption Warning: \setcaptiontype
 (caption)                outside box or environment on input line 110.
@@ -401,7 +401,7 @@ See the caption package documentation for explanation.
 
 
 
-[4 <./reward_plot.png>]
+[4 <./rewards_plot.png>]
 Underfull \hbox (badness 5147) in paragraph at lines 132--134
 \OT1/cmr/m/n/10.95 : The code for this project is avail-able at []$\OT1/cmtt/m/n/10.95 https : / / github . com / vigneshrangaraj /
  []
@@ -453,14 +453,14 @@ Package rerunfilecheck Info: Checksums for `dual_rl_05122025.out':
  ) 
 Here is how much of TeX's memory you used:
  11605 strings out of 473190
- 182440 string characters out of 5715801
+ 182447 string characters out of 5715801
  587285 words of memory out of 5000000
  34716 multiletter control sequences out of 15000+600000
  567712 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,6n,79p,685b,565s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on dual_rl_05122025.pdf (6 pages, 369721 bytes).
+Output written on dual_rl_05122025.pdf (6 pages, 684879 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream

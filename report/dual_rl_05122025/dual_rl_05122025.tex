@@ -106,13 +106,13 @@ The training loop alternates between updating the tertiary agent and the seconda
 For this report, we present the convergence of a single microgrid with 4 DERs. The microgird consists of 8 buses with 4 of them having time-varying loads. The remaining 4 buses are connected to the grid and have PV and wind generation. The microgrid is connected to the main grid through a transformer.
 The training for the next convergence will be carried out by gradually adding more microgrids to the system as shown in Figure \ref{fig:der_config}. The training will be carried out for 1000 episodes and the reward will be calculated for each episode. The reward is calculated as the sum of the rewards of all the agents in the system.
 
-\includegraphics[width=0.9\linewidth]{./reward_plot.png} 
+\includegraphics[width=0.9\linewidth]{./rewards_plot.png} 
 \captionof{figure}{Convergence of Tertiary and Secondary Agents}
 \label{fig:convergence}
 \textit{Reward shows convergence of tertiary and secondary agents.}
 
-The reward plot shows the convergence of the tertiary and secondary agents. The reward is calculated as the sum of the rewards of all the agents in the system. The plot shows that the reward converges to a stable value after 1000 episodes. The reward is calculated as the sum of the rewards of all the agents in the system. 
-The plot shows that the reward converges to a stable value after 10000 episodes as shown in Figure \ref{fig:convergence}.
+The reward plot shows the convergence of the tertiary and secondary agents. The reward is calculated as the sum of the rewards of all the agents in the system. The plot shows that the reward converges to a stable value after 500 episodes. The reward is calculated as the sum of the rewards of all the agents in the system. 
+The plot shows that the reward converges to a stable value after 500 episodes as shown in Figure \ref{fig:convergence} after which the trend flatlines. The voltage violations of each individual agent is shown in the bottom graph.
 
 \includegraphics[width=0.9\linewidth]{./der_config.png} 
 \captionof{figure}{Electrical diagram showing how two microgrids are connected to the main grid.}
